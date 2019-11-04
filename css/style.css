@@ -1,0 +1,139 @@
+body{
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho {
+  background-color:#4B0082 ;
+  margin-top: auto;  
+  max-width:auto;
+  margin: 0 auto;
+  padding: 20px 0; 
+  color: #ffffff;
+  font-family:'Staatliches', cursive;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  
+}
+
+.menu a {
+  text-decoration:none;
+  justify-content: space-between; 
+  padding: 10px;
+  color: #ffffff;
+  font-size: 1.25em;
+  display: block;
+  align-items: center;
+  flex-wrap: nowrap;
+ 
+
+}
+
+.cabecalho a{
+    text-decoration: none;
+    
+    
+}
+.menu ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    align-content:center;
+    padding-left: 20px;
+}
+
+.menu li a{
+    margin-left: 20px;
+    text-align: left;
+    
+}
+
+.menu a:hover {
+  color:#DC143C ;
+}
+
+h1 , p {
+    text-decoration: none;
+    text-align: center; 
+    font-family:'Staatliches',cursive;
+    margin-top: 20px;
+    padding-top: 0px auto;
+}
+.formulario {
+    text-align: center;
+    font-family: 'Staatliches';
+    margin-top: 0px auto;
+    padding-top: 0px auto;
+}
+
+input,textarea {
+    width: 200px;
+    padding: 10px;
+    color: #DC143C;
+    margin-left: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 10px;
+    max-width: 400px;
+}
+
+.btn {
+    background-color:#DC143C;
+    border: none;
+    color:#ffffff;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-family:'Staatliches';
+    font-size: 15px;
+    display:inline-block;
+    cursor: pointer;
+ 
+}
+
+.btn:hover {
+    color: #4B0082 ;
+}
+
+.logo img{
+   width: 40px;
+   height: 40px;
+   margin-left:2000%;
+    
+}
+.logo a {
+    text-align:left;
+    position:relative;
+    color:#ffffff;
+}
+
+.logo a:hover {
+    
+    color:#DC143C;
+}
+
+.footer {
+  display: flex;
+  background:#4B0082;
+  height: 200px;
+  align-items: center;
+}
+
+.footer p {
+  flex: 1;
+  text-align: center;
+  font-size: 1.25em;
+  color: #ffffff;
+}
